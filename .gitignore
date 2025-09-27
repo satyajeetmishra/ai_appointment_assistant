@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py~
+*.py.class
+
+# --- Virtual environment ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+*.secret
+*.key
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Logs / caches ---
+*.log
+*.pid
+*.seed
+*.out
+*.bak
+*.tmp
+*.temp
+*.coverage
+coverage.xml
+htmlcov/
+.cache/
+pytest_cache/
+.mypy_cache/
+.pytest_cache/
+
+# --- Build / distribution ---
+build/
+dist/
+*.egg-info/
+*.egg
+*.tar.gz
+*.whl
+
+# --- FastAPI specific (optional) ---
+# If you create static/media folders for uploads, add them here
+uploads/
+media/
+staticfiles/

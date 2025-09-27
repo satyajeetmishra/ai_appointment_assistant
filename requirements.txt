@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic>=2.6.0,<3.0.0
+python-multipart==0.0.9
+pytesseract==0.3.10
+Pillow>=10.3.0
+dateparser==1.2.0
+pendulum==3.0.0
