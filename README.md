@@ -1,7 +1,3 @@
-Here’s a **clean, submission-ready README.md** you can drop directly into the root of your repository.
-It covers setup, architecture, running instructions, and sample cURL/Command Prompt tests — all aligned with the requirements you mentioned.
-
----
 
 ## README.md
 
@@ -206,24 +202,8 @@ curl -X POST "http://127.0.0.1:8000/api/v1/appointments/parse" -F "image=@C:\pat
 
 ---
 
-## 7. Screen Recording (for submission)
 
-For the final deliverable:
-
-1. Start FastAPI server (`uvicorn app:app --reload`).
-2. Optionally start ngrok (`ngrok http 8000`) and show the public URL.
-3. Use Swagger UI (`http://127.0.0.1:8000/docs`) to test:
-
-   * Text input (e.g., `book dentist next Friday at 3pm`).
-   * Typo input (e.g., `checking my hair to doctor todaay evening at 8 pm`).
-   * OCR input (upload an image if desired).
-4. Show responses in the browser or terminal.
-5. Record 60–90 seconds with any screen capture tool (OBS, Loom, Xbox Game Bar).
-6. Share the video file or link alongside your GitHub repository.
-
----
-
-## 8. Key Design Choices
+## 7. Key Design Choices
 
 * **LLM-first**: OpenAI GPT handles language understanding, spelling corrections, and conversion to ISO date/time.
 * **Minimal Python normalization**: Only validates final date/time format (`YYYY-MM-DD`, `HH:MM`) and attaches timezone.
@@ -231,7 +211,7 @@ For the final deliverable:
 
 ---
 
-## 9. License
+## 8. License
 
 MIT License – free for personal or commercial use.
 
@@ -260,3 +240,4 @@ This README includes everything required for submission:
 * **Architecture overview**
 * **API usage with sample cURL/Command Prompt commands**
 * **Screen recording guide**
+
